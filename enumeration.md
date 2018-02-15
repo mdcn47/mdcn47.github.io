@@ -1,7 +1,9 @@
 # Enumeration
 
-## SMB Enumeration
+## SMB (139,445)
 
 **NSE**
 
-`nmap <IP> --script smb-vuln*`
+Vulnerabilities
+`nmap --script smb-vuln-* -p <PORTS> <IP>`
+
