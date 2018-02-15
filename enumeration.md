@@ -32,5 +32,11 @@ Mount shares
 
 `mount -t cifs -o user=USERNAME,sec=ntlm,dir_mode=0077 "//<IP>/<share-name>" /mnt/cifs`
 
-## SMTP (25)
+## SNMP (UDP 161)
+
+`snmpwalk -c public -v1 <IP>`
+
+snmpcheck ??
+
+
 
