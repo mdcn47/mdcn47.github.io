@@ -1,6 +1,6 @@
 # Enumeration
 
-## SMB (139,445)
+## SMB (139, 445)
 
 **NSE**
 
