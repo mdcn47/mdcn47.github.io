@@ -26,5 +26,10 @@ OS Discovery
 
 `enum4linux -a <IP>`
 
+**Misc**
+Mount shares
 
+`mount -t cifs -o user=USERNAME,sec=ntlm,dir_mode=0077 "//<IP>/<share-name>" /mnt/cifs`
+
+## SMTP (25)
 
